@@ -7,6 +7,9 @@ function showQuestion() {
     if(questions[currentQuestion]) {
         let q = questions[currentQuestion]
 
+        let bar = Math.floor((currentQuestion / questions.length) * 100);
+        document.querySelector('.progress--bar').style.width = `${bar}%`
+
         document.querySelector('.scoreArea').style.display = 'none'
         document.querySelector('.questionArea').style.display = 'block'
 
