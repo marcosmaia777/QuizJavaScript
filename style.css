@@ -10,13 +10,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-    color: #FFF;
-    margin: 20px 0;
+    background-image: linear-gradient(rgb(194, 183, 183), rgb(43, 42, 42));
 }
 
 .progress {
@@ -40,10 +35,10 @@ h1 {
 .questionArea {
     max-width: 500px;
     width: 100%;
+    color: #FFF;
 }
 
 .question {
-    color: #FFF;
     font-size: 18px;
     margin: 20px 0;
 }
@@ -54,7 +49,6 @@ h1 {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     margin-bottom: 5px;
-    color: #AAA;
     font-size: 16px;
     cursor: pointer;
 }
@@ -68,14 +62,14 @@ h1 {
     margin-left: 5px;
     margin-right: 10px;
     background-color: rgba(0, 0, 0, 0.8);
-    color: #555;
+    color: #FFF;
 }
 .option:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
 .scoreArea {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgb(138, 130, 130);
     padding: 20px;
     border-radius: 20px;
     margin: 10px;
